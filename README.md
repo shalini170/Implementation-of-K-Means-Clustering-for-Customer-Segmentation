@@ -26,6 +26,7 @@ Program to implement the K Means Clustering for Customer Segmentation.
 Developed by: shalini venkatesulu
 RegisterNumber: 212223220104
 */
+
 ```
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -60,6 +61,8 @@ plt.scatter(df3["Annual Income (k$)"],df3["Spending Score (1-100)"],c="blue",lab
 plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="black",label="cluster4")
 plt.legend()
 plt.title("Customer Segments")
+```
+
 
 
 ## Output:
